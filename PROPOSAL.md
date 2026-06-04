@@ -14,7 +14,6 @@
 - A search bar to search for different recipes/ingredients 
 - A page that has all of the recipes listed with pictures for guidance 
 - Page for each of the recipes 
-- Saved recipes page 
 
 **Content status:** [What content do you have? What do you still need from the client?]
 - My grandma gave me all of the handwritten recipes and I know my grandmothers background information already

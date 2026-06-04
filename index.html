@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Julie Jeong's family recipe archive, preserving handwritten recipes for future generations."
+    />
+    <meta property="og:title" content="Julie Jeong's Recipe Archive" />
+    <meta
+      property="og:description"
+      content="A simple family website for saving, searching, and cooking Grandma Julie's recipes."
+    />
+    <title>Julie Jeong's Recipe Archive</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Julie Jeong's Recipe Archive home">
+        <span class="brand-mark">J</span>
+        <span>Julie Jeong's Recipes</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="recipes.html">Recipes</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+
+        <div class="hero-text">
+          <p class="eyebrow">Family recipes from Hawaii</p>
+          <h1>Julie Jeong's Recipe Archive</h1>
+          <p>
+            A simple place for our family to preserve Grandma Julie's handwritten
+            recipes, find favorite meals quickly, and keep her home cooking alive for
+            generations.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="recipes.html">Find a Recipe</a>
+            <a class="button secondary" href="about.html">About Julie</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-search" aria-labelledby="quick-search-title">
+        <div>
+          <h2 id="quick-search-title">Search by Recipe or Ingredient</h2>
+          <p>Type a dish, ingredient, or meal note to narrow the recipe list.</p>
+        </div>
+        <form class="search-form" action="recipes.html">
+          <label class="visually-hidden" for="home-search">Search recipes</label>
+          <input
+            id="home-search"
+            name="search"
+            type="search"
+            placeholder="Try shoyu, rice, chicken, soup..."
+          />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <section id="about" class="about-section" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">About Grandma Julie</p>
+          <h2 id="about-title">Home-cooked meals made with care</h2>
+          <p>
+            Julie Jeong is a beloved grandmother whose recipes have traveled through
+            family kitchens on paper cards, notebook pages, and memories shared around
+            the table. Born and raised in Hawaii, she brings island warmth, Korean
+            family traditions, and practical home cooking into every meal.
+          </p>
+          <p>
+            Her specialty is making food that feels comforting and generous: easy to
+            share, full of flavor, and made with the kind of care that makes everyone
+            feel at home.
+          </p>
+        </div>
+        <div class="about-note">
+          <h3>Designed for family</h3>
+          <p>
+            Big type, simple pages, clear buttons, and no distracting food news. Just
+            the recipes our family wants to find and cook.
+          </p>
+        </div>
+      </section>
+
+      <section class="featured-section" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <p class="eyebrow">Start here</p>
+          <h2 id="featured-title">Family Favorites</h2>
+        </div>
+        <div class="recipe-grid">
+          <article class="recipe-card">
+            <div class="recipe-photo" data-tone="hibiscus">Shoyu Chicken</div>
+            <div class="recipe-card-body">
+              <ul class="meta-row"><li>Main Dish</li><li>50 min</li><li>Easy</li></ul>
+              <h3>Shoyu Chicken</h3>
+              <p>A comforting island-style chicken dish simmered in shoyu, ginger, garlic, and a little sweetness.</p>
+              <a class="text-link" href="shoyu-chicken.html">View recipe</a>
+            </div>
+          </article>
+          <article class="recipe-card">
+            <div class="recipe-photo" data-tone="leaf">Meat Jun</div>
+            <div class="recipe-card-body">
+              <ul class="meta-row"><li>Main Dish</li><li>45 min</li><li>Medium</li></ul>
+              <h3>Meat Jun</h3>
+              <p>Thin beef slices marinated, dipped in egg, and pan-fried until tender and golden.</p>
+              <a class="text-link" href="meat-jun.html">View recipe</a>
+            </div>
+          </article>
+          <article class="recipe-card">
+            <div class="recipe-photo" data-tone="mango">Banana Bread</div>
+            <div class="recipe-card-body">
+              <ul class="meta-row"><li>Dessert</li><li>1 hr 10 min</li><li>Easy</li></ul>
+              <h3>Banana Bread</h3>
+              <p>Soft banana bread for using ripe local bananas before they go to waste.</p>
+              <a class="text-link" href="banana-bread.html">View recipe</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made for Julie Jeong and family. Replace starter photos with Grandma's meal photos when ready.</p>
+    </footer>
+  </body>
+</html>
