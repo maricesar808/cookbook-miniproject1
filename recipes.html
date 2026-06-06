@@ -9,31 +9,23 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="index.html">
-        <span class="brand-mark">J</span>
-        <span>Julie Jeong's Recipes</span>
-      </a>
       <nav aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="recipes.html" aria-current="page">Recipes</a>
       </nav>
+      <form class="header-search" action="recipes.html">
+        <label class="visually-hidden" for="header-search">Search recipes</label>
+        <input id="header-search" name="search" type="search" placeholder="Search recipes" />
+      </form>
     </header>
 
-    <main class="page-shell">
+    <main class="page-shell recipes-page">
       <section class="page-title">
-        <p class="eyebrow">Recipe box</p>
         <h1>All Recipes</h1>
         <p>
-          Browse Grandma Julie's recipes by name, ingredient notes, total time, and
-          difficulty.
+          Browse Grandma Julie's recipes!
         </p>
-      </section>
-
-      <section class="toolbar" aria-label="Recipe search">
-        <label class="visually-hidden" for="recipe-search">Search recipes</label>
-        <input id="recipe-search" type="search" placeholder="Search recipes or ingredients" />
-        <a class="button primary" href="#recipe-list">View Recipes</a>
       </section>
 
       <section id="recipe-list" class="recipe-grid" aria-label="Recipe list">
@@ -102,11 +94,44 @@
             <a class="text-link" href="pickled-cucumber.html">View recipe</a>
           </div>
         </article>
+
+        <article class="recipe-card">
+          <div class="recipe-photo" data-tone="ocean">Spam Musubi</div>
+          <div class="recipe-card-body">
+            <ul class="meta-row"><li>Snack</li><li>35 min</li><li>Easy</li></ul>
+            <h2>Spam Musubi</h2>
+            <p>Rice, sweet shoyu-glazed Spam, and nori wrapped into a favorite local snack.</p>
+            <ul class="tag-row"><li>spam</li><li>rice</li><li>nori</li></ul>
+            <a class="text-link" href="spam-musubi.html">View recipe</a>
+          </div>
+        </article>
+
+        <article class="recipe-card">
+          <div class="recipe-photo" data-tone="hibiscus">Kalbi Short Ribs</div>
+          <div class="recipe-card-body">
+            <ul class="meta-row"><li>Main Dish</li><li>1 hr</li><li>Medium</li></ul>
+            <h2>Kalbi Short Ribs</h2>
+            <p>Flanken-cut short ribs marinated with shoyu, garlic, sesame, and a little sweetness.</p>
+            <ul class="tag-row"><li>beef</li><li>kalbi</li><li>grill</li></ul>
+            <a class="text-link" href="kalbi-short-ribs.html">View recipe</a>
+          </div>
+        </article>
+
+        <article class="recipe-card">
+          <div class="recipe-photo" data-tone="mango">Haupia</div>
+          <div class="recipe-card-body">
+            <ul class="meta-row"><li>Dessert</li><li>2 hr 20 min</li><li>Easy</li></ul>
+            <h2>Haupia</h2>
+            <p>A smooth coconut dessert that chills into soft squares for family gatherings.</p>
+            <ul class="tag-row"><li>coconut</li><li>dessert</li><li>Hawaii</li></ul>
+            <a class="text-link" href="haupia.html">View recipe</a>
+          </div>
+        </article>
       </section>
     </main>
 
     <footer>
-      <p>Preserving handwritten recipes in one simple family archive.</p>
+      <p>Made for Grandma Jeong and family.</p>
     </footer>
   </body>
 </html>

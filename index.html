@@ -17,15 +17,15 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Julie Jeong's Recipe Archive home">
-        <span class="brand-mark">J</span>
-        <span>Julie Jeong's Recipes</span>
-      </a>
       <nav aria-label="Main navigation">
         <a href="index.html" aria-current="page">Home</a>
         <a href="about.html">About</a>
         <a href="recipes.html">Recipes</a>
       </nav>
+      <form class="header-search" action="recipes.html">
+        <label class="visually-hidden" for="header-search">Search recipes</label>
+        <input id="header-search" name="search" type="search" placeholder="Search recipes" />
+      </form>
     </header>
 
     <main>
@@ -33,58 +33,16 @@
 
         <div class="hero-text">
           <p class="eyebrow">Family recipes from Hawaii</p>
-          <h1>Julie Jeong's Recipe Archive</h1>
+          <h1>Grandma Jeong's Cookbook</h1>
           <p>
-            A simple place for our family to preserve Grandma Julie's handwritten
-            recipes, find favorite meals quickly, and keep her home cooking alive for
-            generations.
+            A simple place for our family to preserve Grandma Jeong's handwritten
+            recipes, find favorite meals quickly, and keep her cooking alive for
+            generations to come.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="recipes.html">Find a Recipe</a>
             <a class="button secondary" href="about.html">About Julie</a>
           </div>
-        </div>
-      </section>
-
-      <section class="quick-search" aria-labelledby="quick-search-title">
-        <div>
-          <h2 id="quick-search-title">Search by Recipe or Ingredient</h2>
-          <p>Type a dish, ingredient, or meal note to narrow the recipe list.</p>
-        </div>
-        <form class="search-form" action="recipes.html">
-          <label class="visually-hidden" for="home-search">Search recipes</label>
-          <input
-            id="home-search"
-            name="search"
-            type="search"
-            placeholder="Try shoyu, rice, chicken, soup..."
-          />
-          <button type="submit">Search</button>
-        </form>
-      </section>
-
-      <section id="about" class="about-section" aria-labelledby="about-title">
-        <div>
-          <p class="eyebrow">About Grandma Julie</p>
-          <h2 id="about-title">Home-cooked meals made with care</h2>
-          <p>
-            Julie Jeong is a beloved grandmother whose recipes have traveled through
-            family kitchens on paper cards, notebook pages, and memories shared around
-            the table. Born and raised in Hawaii, she brings island warmth, Korean
-            family traditions, and practical home cooking into every meal.
-          </p>
-          <p>
-            Her specialty is making food that feels comforting and generous: easy to
-            share, full of flavor, and made with the kind of care that makes everyone
-            feel at home.
-          </p>
-        </div>
-        <div class="about-note">
-          <h3>Designed for family</h3>
-          <p>
-            Big type, simple pages, clear buttons, and no distracting food news. Just
-            the recipes our family wants to find and cook.
-          </p>
         </div>
       </section>
 
@@ -126,7 +84,7 @@
     </main>
 
     <footer>
-      <p>Made for Julie Jeong and family. Replace starter photos with Grandma's meal photos when ready.</p>
+      <p>Made for Grandma Jeong and family.</p>
     </footer>
   </body>
 </html>

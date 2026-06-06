@@ -12,20 +12,20 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Julie Jeong's Recipe Archive home">
-        <span class="brand-mark">J</span>
-        <span>Julie Jeong's Recipes</span>
-      </a>
       <nav aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="about.html" aria-current="page">About</a>
         <a href="recipes.html">Recipes</a>
       </nav>
+      <form class="header-search" action="recipes.html">
+        <label class="visually-hidden" for="header-search">Search recipes</label>
+        <input id="header-search" name="search" type="search" placeholder="Search recipes" />
+      </form>
     </header>
 
     <main class="page-shell">
       <section class="page-title">
-        <p class="eyebrow">About Grandma Julie</p>
+        <p class="eyebrow">About Grandma Jeong</p>
         <h1>Julie Jeong</h1>
         <p>
           Julie Jeong is my grandmother, and this website was made to preserve the
@@ -48,60 +48,16 @@
             together. This website gives those recipes a safer home so our family can
             keep using them for generations.
           </p>
-        </div>
-
-        <aside class="about-note">
-          <h2>What She Cooks Best</h2>
           <p>
             Grandma Julie is known for delicious home-cooked meals that feel warm,
-            generous, and easy to share. Her food is practical, comforting, and made
-            with care.
+            generous, and easy to share.
           </p>
-        </aside>
-      </section>
-
-      <section class="values-section" aria-labelledby="values-title">
-        <div class="section-heading">
-          <p class="eyebrow">Why this site matters</p>
-          <h2 id="values-title">A recipe box for the whole family</h2>
         </div>
-        <div class="values-grid">
-          <article>
-            <h3>Easy to Use</h3>
-            <p>
-              The site uses large text, simple pages, and clear buttons so Grandma and
-              older family members can navigate it comfortably.
-            </p>
-          </article>
-          <article>
-            <h3>Made for Hawaii</h3>
-            <p>
-              The colors are bright and welcoming, inspired by Hawaii's flowers,
-              ocean, sunshine, and local family kitchens.
-            </p>
-          </article>
-          <article>
-            <h3>Built to Preserve</h3>
-            <p>
-              Digitizing the recipes helps protect them from being lost, damaged, or
-              forgotten as the paper copies get older.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-panel next-step-panel">
-        <h2>Next Step</h2>
-        <p>
-          Once the family takes photos of each finished meal, those pictures can be
-          added to the recipe cards and individual recipe pages for extra guidance.
-        </p>
-        <a class="button primary" href="recipes.html">See the Recipes</a>
       </section>
     </main>
 
     <footer>
-      <p>Made for Julie Jeong and the family recipes she shares.</p>
+      <p>Made for Grandma Jeong and family.</p>
     </footer>
   </body>
 </html>

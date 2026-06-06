@@ -65,32 +65,12 @@ select {
   z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: flex-start;
+  gap: 12px;
   padding: 16px clamp(18px, 4vw, 56px);
   background: rgba(255, 250, 241, 0.96);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(10px);
-}
-
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--ink);
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.brand-mark {
-  display: inline-grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  color: #ffffff;
-  background: var(--hibiscus);
-  border: 3px solid var(--mango);
-  border-radius: 50%;
 }
 
 nav {
@@ -117,11 +97,21 @@ nav a[aria-current="page"] {
   outline: none;
 }
 
+.header-search {
+  flex: 0 1 240px;
+  margin-left: auto;
+}
+
+.header-search input {
+  min-height: 44px;
+  padding-block: 8px;
+}
+
 .hero {
   position: relative;
-  min-height: 620px;
+  min-height: 360px;
   display: grid;
-  align-items: end;
+  align-items: center;
   overflow: hidden;
   background: #24484b;
 }
@@ -146,8 +136,8 @@ nav a[aria-current="page"] {
 .hero-text {
   position: relative;
   z-index: 1;
-  width: min(760px, calc(100% - 36px));
-  margin: 0 clamp(18px, 7vw, 90px) 54px;
+  width: auto;
+  margin: 0 clamp(18px, 7vw, 90px);
   color: #ffffff;
 }
 
@@ -175,6 +165,10 @@ h1 {
   margin-bottom: 16px;
   font-size: 3.25rem;
   line-height: 1.05;
+}
+
+.hero h1 {
+  max-width: none;
 }
 
 h2 {
@@ -283,18 +277,16 @@ button:focus-visible,
 }
 
 .about-note {
-  align-self: start;
+  align-self: stretch;
   padding: 24px;
   background: #ffffff;
-  border-left: 8px solid var(--mango);
+  border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
 
 .about-page-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.75fr);
-  gap: 22px;
+  display: block;
   margin-bottom: 28px;
 }
 
@@ -332,6 +324,10 @@ button:focus-visible,
 .page-shell {
   padding-top: 54px;
   padding-bottom: 64px;
+}
+
+.recipes-page {
+  padding-top: 32px;
 }
 
 .section-heading {
@@ -565,8 +561,12 @@ footer p {
     text-align: center;
   }
 
+  .header-search {
+    width: 100%;
+  }
+
   .hero {
-    min-height: 590px;
+    min-height: 420px;
   }
 
   .hero::after {
@@ -609,15 +609,6 @@ footer p {
 }
 
 @media (max-width: 460px) {
-  .brand {
-    font-size: 0.98rem;
-  }
-
-  .brand-mark {
-    width: 36px;
-    height: 36px;
-  }
-
   nav {
     grid-template-columns: 1fr;
   }
