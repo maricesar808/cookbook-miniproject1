@@ -6,12 +6,11 @@
 
 **Audience:** This website will mostly be for my family members, and of course my grandma, to refer to recipes my grandma has collected over the years. Currently, my grandma has all of her recipes on paper, which is very time consuming and easy to misplace. This website will help preserve her recipes for generations to come in my family. 
 
-**Key action:** Be able to search and locate various recipes, and use these recipes to make delicious meals.
+**Key action:** Be able to locate various recipes, and use these recipes to make delicious meals.
 
 **Pages/sections needed:**
 - Home page with a short description of my grandmother 
-- About me section for my grandmothers background and speciality with making delicious home cooked meals 
-- A search bar to search for different recipes/ingredients 
+- About me section for my grandmothers background and speciality with making delicious home cooked meals  
 - A page that has all of the recipes listed with pictures for guidance 
 - Page for each of the recipes 
 

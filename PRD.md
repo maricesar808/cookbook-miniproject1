@@ -15,12 +15,12 @@ The product should feel personal, warm, colorful, and easy to use. Because the p
 
 ## 3. Problem Statement
 
-Grandma Julie's recipes are currently stored on paper. Paper recipes can be misplaced, damaged, difficult to search through, and hard to share with family members. Family members need a centralized digital archive where they can browse recipes, search by recipe or ingredient, and follow clear cooking instructions.
+Grandma Julie's recipes are currently stored on paper. Paper recipes can be misplaced, damaged, difficult to search through, and hard to share with family members. Family members need a centralized digital archive where they can browse recipes and follow clear cooking instructions.
 
 ## 4. Goals
 
 - Preserve Grandma Julie's recipes digitally for long-term family use.
-- Make recipes easy to find by name, ingredient, or category.
+- Make recipes easy to find.
 - Provide readable, step-by-step recipe pages that are comfortable for elders to use.
 - Share Grandma Julie's story and cooking background.
 - Create a Hawaii-inspired visual style that feels personal, colorful, and family-centered.
@@ -48,7 +48,6 @@ Grandma Julie's recipes are currently stored on paper. Paper recipes can be misp
 
 - As Grandma Julie, I want the website to be simple so I can find recipes without getting confused.
 - As an elder family member, I want large readable text so I can comfortably read ingredients and instructions.
-- As a family member, I want to search for a recipe or ingredient so I can quickly find what to cook.
 - As a family member, I want each recipe to include time and difficulty so I know what to expect before cooking.
 - As a family member, I want photos or visual references so I can recognize each dish.
 - As a future family member, I want to read about Grandma Julie so the recipes feel connected to family history.
@@ -88,18 +87,7 @@ The recipe listing page must show all available recipes in a scannable format.
 - Include a visual placeholder or photo area for each recipe.
 - Provide a clear link to each individual recipe page.
 
-### 8.4 Search
-
-The site must include a search bar that helps users locate recipes by recipe name or ingredient.
-
-**Requirements:**
-
-- Search should be available from the main navigation/header.
-- Search should support recipe names and common ingredient keywords.
-- Search results should be easy to scan.
-- If no results are found, the site should communicate that clearly.
-
-### 8.5 Individual Recipe Pages
+### 8.4 Individual Recipe Pages
 
 Each recipe page must provide the information needed to cook the dish.
 
@@ -112,7 +100,7 @@ Each recipe page must provide the information needed to cook the dish.
 - Include serving notes, family notes, or tips when available.
 - Include a clear path back to the full recipe list.
 
-### 8.6 Recipe Photos
+### 8.5 Recipe Photos
 
 The site should eventually include photos of finished dishes for visual guidance.
 
@@ -169,7 +157,6 @@ The site should eventually include photos of finished dishes for visual guidance
 - The site should remain simple and lightweight.
 - The first version can use static HTML, CSS, and local recipe pages.
 - Photos may be added later as they become available.
-- Search may start as a simple keyword-based feature and improve over time.
 
 ## 14. Inspiration
 
@@ -189,7 +176,6 @@ The site should eventually include photos of finished dishes for visual guidance
 
 - The site includes a home page, about page, recipe listing page, and individual recipe pages.
 - The main navigation is visible and consistent across pages.
-- A search bar appears in the header.
 - Recipe cards include name, category, time, difficulty, short description, tags, and a link to the recipe.
 - Each individual recipe page includes ingredients and instructions.
 - Text is readable for older users.
