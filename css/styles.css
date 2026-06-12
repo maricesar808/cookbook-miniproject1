@@ -398,6 +398,56 @@ button:focus-visible,
   font-weight: 900;
 }
 
+.recipe-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.recipe-photo.has-image {
+  aspect-ratio: 4 / 3;
+  min-height: 0;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  background: #f4ead8;
+}
+
+.photo-shoyu-chicken img,
+.photo-spam-musubi img,
+.photo-kalbi-short-ribs img,
+.photo-pickled-cucumber img {
+  object-position: center;
+}
+
+.photo-banana-bread img {
+  object-position: 50% 58%;
+}
+
+.photo-kimchi-fried-rice img {
+  object-position: 48% 63%;
+}
+
+.photo-meat-jun img {
+  object-position: center 45%;
+}
+
+.photo-miso-soup img {
+  object-position: 52% 62%;
+}
+
+.photo-haupia img {
+  object-position: 46% 44%;
+}
+
+.recipes-page .recipe-card .photo-banana-bread img,
+.recipes-page .recipe-card .photo-kimchi-fried-rice img,
+.recipes-page .recipe-card .photo-miso-soup img,
+.recipes-page .recipe-card .photo-haupia img {
+  object-position: center;
+}
+
 .recipe-photo[data-tone="hibiscus"] {
   background: linear-gradient(135deg, #e85b6b, #f5b84b);
 }
@@ -511,6 +561,11 @@ button:focus-visible,
 
 .recipe-hero-card .recipe-photo {
   min-height: 240px;
+}
+
+.recipe-hero-card .recipe-photo.has-image {
+  aspect-ratio: 4 / 3;
+  min-height: 0;
 }
 
 .recipe-hero-content {
